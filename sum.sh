@@ -14,7 +14,7 @@ fi
 total=0
 for i in "$@"
 do	
-	total=$((total + "$i"))
+	total=$((total + $i))
 done
 
 # Calculates mean and prints to screen
